@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment1"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="446dp"
+        android:layout_gravity="center"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     차단 내역                                             "
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <ScrollView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="  메시지 예시1"
+                android:background="@drawable/text_edge"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="메시지 예시2"
+                android:background="@drawable/text_edge"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="메시지 예시3"
+                android:background="@drawable/text_edge"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="메시지 예시4"
+                android:background="@drawable/text_edge"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="메시지 예시5"
+                android:background="@drawable/text_edge"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="메시지 예시6"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/teal_700"
+        android:text="의심 문자 제보하기"
+        android:background="@drawable/button_edge"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+</LinearLayout>
